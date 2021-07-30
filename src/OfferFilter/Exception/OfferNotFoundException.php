@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace App\MetroOffer\Exception;
+namespace App\OfferFilter\Exception;
 
 use LogicException;
 

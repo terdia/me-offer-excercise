@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace App\MetroOffer\Service;
+namespace App\OfferFilter\Service;
 
-use App\MetroOffer\Contract\OfferCollectionInterface;
-use App\MetroOffer\Contract\OfferFilterCommandHandlerInterface;
-use App\MetroOffer\Dto\OfferCollection;
+use App\OfferFilter\Contract\OfferCollectionInterface;
+use App\OfferFilter\Contract\OfferFilterCommandHandlerInterface;
+use App\OfferFilter\Dto\OfferCollection;
 use FilterIterator;
 
 class JsonOfferFilterCommandHandler implements OfferFilterCommandHandlerInterface

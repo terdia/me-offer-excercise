@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace App\MetroOffer\Factory;
+namespace App\OfferFilter\Factory;
 
-use App\MetroOffer\Contract\OfferCollectionFactoryInterface;
-use App\MetroOffer\Contract\OfferCollectionInterface;
-use App\MetroOffer\Dto\Offer;
-use App\MetroOffer\Dto\OfferCollection;
+use App\OfferFilter\Contract\OfferCollectionFactoryInterface;
+use App\OfferFilter\Contract\OfferCollectionInterface;
+use App\OfferFilter\Dto\Offer;
+use App\OfferFilter\Dto\OfferCollection;
 
 class JsonOfferCollectionFactory implements OfferCollectionFactoryInterface
 {

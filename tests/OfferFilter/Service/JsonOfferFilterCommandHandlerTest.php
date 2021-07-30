@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Tests\MetroOffer\Service;
+namespace Tests\OfferFilter\Service;
 
-use App\MetroOffer\Contract\OfferCollectionInterface;
-use App\MetroOffer\Factory\JsonOfferCollectionFactory;
-use App\MetroOffer\Service\JsonOfferFilterCommandHandler;
-use App\MetroOffer\Service\JsonOfferReader;
+use App\OfferFilter\Contract\OfferCollectionInterface;
+use App\OfferFilter\Factory\JsonOfferCollectionFactory;
+use App\OfferFilter\Service\JsonOfferFilterCommandHandler;
+use App\OfferFilter\Service\JsonOfferReader;
 use PHPUnit\Framework\TestCase;
 
 class JsonOfferFilterCommandHandlerTest extends TestCase

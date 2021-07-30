@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App\MetroOffer\Service;
+namespace App\OfferFilter\Service;
 
-use App\MetroOffer\Contract\OfferFilterCommandHandlerInterface;
+use App\OfferFilter\Contract\OfferFilterCommandHandlerInterface;
 
 class OfferFilterComandProcessor
 {

@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace App\MetroOffer\Dto;
+namespace App\OfferFilter\Dto;
 
-use App\MetroOffer\Contract\OfferInterface;
+use App\OfferFilter\Contract\OfferInterface;
 
 class Offer implements OfferInterface
 {

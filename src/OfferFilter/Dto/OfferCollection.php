@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace App\MetroOffer\Dto;
+namespace App\OfferFilter\Dto;
 
-use App\MetroOffer\Contract\OfferCollectionInterface;
-use App\MetroOffer\Contract\OfferInterface;
-use App\MetroOffer\Exception\OfferNotFoundException;
+use App\OfferFilter\Contract\OfferCollectionInterface;
+use App\OfferFilter\Contract\OfferInterface;
+use App\OfferFilter\Exception\OfferNotFoundException;
 use ArrayIterator;
 use Iterator;
 

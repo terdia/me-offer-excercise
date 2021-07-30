@@ -1,9 +1,9 @@
 <?php
 
-use App\MetroOffer\Factory\JsonOfferCollectionFactory;
-use App\MetroOffer\Service\JsonOfferFilterCommandHandler;
-use App\MetroOffer\Service\JsonOfferReader;
-use App\MetroOffer\Service\OfferFilterComandProcessor;
+use App\OfferFilter\Factory\JsonOfferCollectionFactory;
+use App\OfferFilter\Service\JsonOfferFilterCommandHandler;
+use App\OfferFilter\Service\JsonOfferReader;
+use App\OfferFilter\Service\OfferFilterComandProcessor;
 
 require_once __DIR__ . '/vendor/autoload.php';
 

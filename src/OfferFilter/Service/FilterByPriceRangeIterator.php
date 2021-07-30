@@ -1,11 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace App\MetroOffer\Service;
+namespace App\OfferFilter\Service;
 
-use App\MetroOffer\Dto\Offer;
+use App\OfferFilter\Dto\Offer;
+use FilterIterator;
 use Iterator;
 
-class FilterByPriceRangeIterator extends \FilterIterator
+class FilterByPriceRangeIterator extends FilterIterator
 {
     private float $priceFrom;
     private float $priceTo;
